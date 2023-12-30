@@ -45,8 +45,14 @@ public class Taskpathologywebsite {
            Thread.sleep(2000);
            JavascriptExecutor js1 = (JavascriptExecutor) driver;
            js.executeScript("window.scrollBy(1,400)");
-           
-            
+           Thread.sleep(6000);
+
+          driver.findElement(By.xpath("/html/body/div[2]/div/main/div[2]/div[2]/div/div[2]/div[2]/button[2]")).click();
+//          driver.findElement(By.xpath("/html/body/div[2]/div/main/div[2]/div[2]/div/div[1]/div[1]/div[2]/div[1]/div/div/div/input")).click();
+//          Thread.sleep(3000);
+
+//          driver.findElement(By.xpath("/html/body/div[2]/div/main/div[2]/div[2]/div/div[1]/div[1]/div[2]/div[2]/div/div")).click();
+//          Thread.sleep(6000);
           
 
 	}
