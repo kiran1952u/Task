@@ -54,7 +54,15 @@ public class Taskpathologywebsite {
 //          driver.findElement(By.xpath("/html/body/div[2]/div/main/div[2]/div[2]/div/div[1]/div[1]/div[2]/div[2]/div/div")).click();
 //          Thread.sleep(6000);
           
-
-	}
+            driver.findElement(By.xpath("/html/body/div[2]/div/main/div[2]/div[2]/div/div[1]/div[1]/div[2]/div[2]/div/div")).click();
+            driver.findElement(By.xpath("/html/body/div[4]/div[3]/ul/li[3]")).click();
+            Thread.sleep(3000);
+//            driver.findElement(By.xpath("/html/body/div[2]/div/main/div[2]/div[2]/div/div[1]/div[2]/div[2]/div/div/input")).click();
+      
+            
+//            driver.findElement(By.id("/html/body/div[2]/div/main/div[2]/div[2]/div/div[1]/div[2]/div[2]/div/div/input")).click();
+                         
+            
+            	}
 
 }
